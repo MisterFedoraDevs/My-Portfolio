@@ -1,0 +1,14 @@
+TUES | October 27, 2026
+=======================
+Today, I began working on my portfolio. I want it to be mostly black and white with light blue accents here and there. 
+I worked on creating the Navigation Bar and the Hero section on the homepage to start off. I wanted stuff to be typed out, deleted, and something new typed in a loop. I found a library that can make this easy, but I struggled implementing it into my own website. The first problem was my JavaScript, at first, I used the wrong type of brackets. I also installed the library wromng inside the JS. I decided to put it into the HTML, and I put it in below the script for the writing. Hence, it was calling the options for the type, but not pulling up the library for the type. After I fixed that, the homepage was being typed on!
+** - I also added an gallery to display the tools and coding languages I know.
+
+WEDS | October 28, 2026
+=======================
+9:50 - 11:01
+Today, I worked more on the homepage and started on the sub-pges including persona and photos. I also worked on styling the Homepage. Specifically, I wanted the coding languages and software I use to increase in size when you hover over it. It took me a couple of tries. At first, I used none for the list-style-type, but this would not allow the animation to work. So, I put the list-style-type attribute under .gallary ul instead of gallary, and changed the display to in-line grid. This allowed the CSS animation the play. Easrlier, I also worked on creating the images in vecotrs. Accidentally, I saved them as pngs and not svgs, so they weren't vectors. This caused the images to be pixelated.
+
+THURS | October 29, 2026
+========================
+I finshed my improvements to the home page by adding some things I do in my free time. Again, didn't make them svg images. Instead, they are png. I will need to fix all of the images that look pixelated later. I also started working on the Projects page. I am styling it simular to https://baishnabikumari.github.io/Its-me-and-mine/. It will display featured projects as well as projects that I am tracking with Hackatime. I will also want to be able to make each one it's own page for journal entries and such. Also, I want a neat tag to show if it is in-prgress, delayed, or cancelled.

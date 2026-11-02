@@ -1,0 +1,93 @@
+:root {
+    --lightazul: #ADD8E6
+}
+/** HOME PAGE **/
+
+/** PERSONA PAGE **/
+
+/** PROJECT PAGE **/
+.projectCard {
+    display: inline-grid;
+    width: 47.5%;
+    padding: 2px;
+    margin: 0px;
+}
+
+.smallProjectCard {
+    display: inline-grid;
+    width: 31.5%;
+    padding: 2px;
+    margin: 0px
+}
+
+.hackatimeProjectsGrid {
+    padding: 10px 0px 0px 0px;
+}
+
+.demoButton {
+    width: 49%;
+    background-color: var(--lightazul);
+    border-color: whitesmoke;
+    border-style: double;
+    color: white;
+    font-weight: bold;
+}
+
+
+.projectCard {
+    align-items: center;
+}
+.projectButtons {
+    align-items: center;
+}
+
+.repositoyButton {
+    width: 48.4%;
+    background-color: whitesmoke;
+    border-color: var(--lightazul);
+    border-style: double;
+    color: black;
+}
+
+.longDemoButton {
+    background-color: var(--lightazul);
+    border-color: whitesmoke;
+    border-style: double;
+    color: white;
+    font-weight: bold;
+}
+
+.longRepositoyButton {
+    background-color: whitesmoke;
+    border-color: var(--lightazul);
+    border-style: double;
+    color: black;
+}
+
+/** PICTURES PAGE **/
+.gallary {
+    display: inline-grid;
+    padding: 0pc;
+    margin: 0px;
+}
+
+.gallaryMedium {
+    display: inline-grid;
+    padding: 0pc;
+    margin: 0px;
+}
+
+.gallary ul {
+    list-style-type: none;
+}
+
+.gallary:hover {
+    transform: scale(1.35);
+}
+
+
+.gallaryMedium:hover {
+    transform: scale(1.35);
+}
+
+/** PARAGRAPHS PAGE **/

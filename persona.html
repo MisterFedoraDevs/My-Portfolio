@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Persona - Darron Jr</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <nav>
+            <a>
+                <img width="75px" src="mylogo.svg" alt="Picture of Darron's face.">
+            </a>
+            <a href="persona.html">Persona</a>
+            <a href="projects.html">Projects</a>
+            <a href="pictures.html">Pictures</a>
+            <a href="paragraphs.html">Paragraphs</a>
+        </nav>
+
+        <h2>Darron Johnson Jr</h2>
+        <h1>Persona</h1>
+
+        <div class="quickFacts">
+            <div class="quickFactsSmall">
+                <h6>Current Time</h6>
+                <div id="localTimeAndDate"></div>
+            </div>
+
+            <div class="quickFactsSmall">
+                <h6>Listenning To</h6>
+                <iframe
+                id="spotifyPlayer"                
+                width="100%"
+                height="152px"
+                allowfullscreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                >
+
+                </iframe>     
+                <iframe id="spotifyPlayer" data-testid="embed-iframe" style="border-radius:12px" src=spotifyEmbed width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>               
+                </div>
+            </div>
+<!--
+            <div class="quickFactsSmall">
+                <h6>Working On</h6>
+                <h4><span class="workingOn"></span></h4>
+            </div>
+-->
+            <br>
+            <div class="quickFactsMedium">
+                <h6>Facorite Tools</h6>
+                <img src="vscodelogo.png">
+                <img width="100px" src="adobecreativecloud.png">
+                <img src="blenderlogo.png">
+            </div>
+            <div class="quickFactsSmall">
+                <h6>Stuff I Enjoy</h6>
+                <ul>
+                    <li>Reading Books</li>
+                    <li>Writing Stories</li>
+                    <li>Making Animations</li>
+                </ul>
+            </div>
+        </div>
+    <script src="clock.js"></script>
+    <script src="spotifyEmbeds.js"></script>
+    </body>
+</html>
