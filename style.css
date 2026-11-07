@@ -1,7 +1,92 @@
 :root {
-    --lightazul: #ADD8E6
+    /** BLUES **/
+    --lightazul: #90d5ff;
+    --vividazure: #56bfff;
+    --vividblue: #13a6ff;
+    --darkerblue: #008de2;
+    --darkestblue: #0075BE;
+    --accentblue: #0075e9;
+    /** REDS **/
+    --myred: #d33f49;
+    --redderred: #c91925;
+    --vividred: #ac0813;
+    --mydarkred: #850000;
+    /** NUETRAL **/
+    --superdarkgray: #404040;
 }
+
+body {
+    font-family: "Inter", sans-serif;   
+}
+
+.shiny {
+    font-size: 40px;
+    font-weight: 800;
+
+    background: linear-gradient(
+        100deg,
+        var(--vividazure)  33%,
+        var(--vividblue)  67%,
+        var(--vividazure)  100%
+        );
+
+    background-size: 300% 100%;
+    background-position: -300% 0;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shiny 3s linear infinite;
+}
+
+@keyframes shiny {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--lightazul);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: var(--vividazure);
+    font-weight: bold;
+    font-size: 1.25em;;
+    text-decoration: none;
+    padding: 0.75%;
+}
+
 /** HOME PAGE **/
+em {
+    font-style: normal;
+}
+
+.darkestBlue {
+    color: var(--darkestblue);
+}
+
+.darkerBlue {
+    color: var(--darkerblue);
+}
+
+.vividBlue {
+    color: var(--vividblue);
+}
+
+.vividAzure {
+    color: var(--vividazure);
+}
 
 /** PERSONA PAGE **/
 
@@ -90,4 +175,69 @@
     transform: scale(1.35);
 }
 
+.pictures {
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    gap: 10px;
+}
+
+.photoCover img {
+    width: 250px;
+    cursor: pointer;
+}
+
+.photoScreen {
+    display: flex;
+    position: fixed;
+    inset-block-start: 0;
+    background-color: #ac0813;
+    color: white;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+
+    width: 1465px;
+    height: 760px;
+
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.regularPhoto {
+    padding: 0px;
+
+    width: ;
+    height: 760px;
+}
+
 /** PARAGRAPHS PAGE **/
+
+/** 404 / CONSTRUCTION **/
+.construction {
+    height: 120px;
+}
+
+.underConstruction {
+    position: fixed;
+    z-index: 1000000;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.headBack {
+    background-color: var(--vividazure);
+    color: white;
+    font-size: 20px;
+}

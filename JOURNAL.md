@@ -12,3 +12,14 @@ Today, I worked more on the homepage and started on the sub-pges including perso
 THURS | October 29, 2026
 ========================
 I finshed my improvements to the home page by adding some things I do in my free time. Again, didn't make them svg images. Instead, they are png. I will need to fix all of the images that look pixelated later. I also started working on the Projects page. I am styling it simular to https://baishnabikumari.github.io/Its-me-and-mine/. It will display featured projects as well as projects that I am tracking with Hackatime. I will also want to be able to make each one it's own page for journal entries and such. Also, I want a neat tag to show if it is in-prgress, delayed, or cancelled.
+
+MON | November 2, 2026
+======================
+I finshed adding the Spotify integration and it works now. I also started working on the style some more.
+
+THURS | Novemeber 9, 2026
+=========================
+I forgot to write some entries. I fixed a lot of the styling accross the website. I need to figure out why the DARRON JOHNSON JR text across the different pages look slightly different, but I'll do that towards the end of the project. 
+I started working on the photo gallary today. I want the pictures to be easily be able to be moved around just in case I want to reorganize them later. I thought about using an array, but that may be harder to implement according to my research. So, I am working on making the identifiers connect directly to the picture with an id (?). 
+I didn't know JS before this point as much as I thought I did, so I am using w3schools (www.w3schools.com/js).
+Goal with the JS: Filter through each photo, identify when they are clicked, check which id was clicked, check that id against the array, get the info from the array, then display that info in the pop-up.
