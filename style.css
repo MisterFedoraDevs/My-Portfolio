@@ -51,7 +51,7 @@ h1 {
 
 h2 {
     font-weight: 700;
-    color: var(--lightazul);
+    color: var(--vividblue);
 }
 
 nav {
@@ -88,6 +88,31 @@ em {
     color: var(--vividazure);
 }
 
+.gallary {
+    display: inline-grid;
+    padding: 0pc;
+    margin: 0px;
+}
+
+.gallaryMedium {
+    display: inline-grid;
+    padding: 0pc;
+    margin: 0px;
+}
+
+.gallary ul {
+    list-style-type: none;
+}
+
+.gallary:hover {
+    transform: scale(1.35);
+}
+
+
+.gallaryMedium:hover {
+    transform: scale(1.35);
+}
+
 /** PERSONA PAGE **/
 
 /** PROJECT PAGE **/
@@ -117,7 +142,6 @@ em {
     color: white;
     font-weight: bold;
 }
-
 
 .projectCard {
     align-items: center;
@@ -150,35 +174,10 @@ em {
 }
 
 /** PICTURES PAGE **/
-.gallary {
-    display: inline-grid;
-    padding: 0pc;
-    margin: 0px;
-}
-
-.gallaryMedium {
-    display: inline-grid;
-    padding: 0pc;
-    margin: 0px;
-}
-
-.gallary ul {
-    list-style-type: none;
-}
-
-.gallary:hover {
-    transform: scale(1.35);
-}
-
-
-.gallaryMedium:hover {
-    transform: scale(1.35);
-}
 
 .pictures {
     display: grid;
-    grid: auto auto / auto auto auto auto;
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
 
 .photoCover img {
@@ -190,35 +189,116 @@ em {
     display: flex;
     position: fixed;
     inset-block-start: 0;
-    background-color: #ac0813;
+    background-color: var(--darkestblue);
     color: white;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
     margin-left: 1%;
-    margin-right: 1%;
-    padding: 10px;
+    margin-right: 2%;
 
-    width: 1465px;
-    height: 760px;
+    width: 97%;
+    height: 94%;
 
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+.photoScreenText {
+    text-align: center;
+}
+
+#regularPhoto {
+    display: sticky;
+
+
+    height: 80%;
+    width: 100%;
 }
 
 .hidden {
     display: none;
 }
 
-.regularPhoto {
-    padding: 0px;
-
-    width: ;
-    height: 760px;
+.closePhotoScreen {
+    position: absolute;
+    background-color: var(--darkestblue);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -42.5%;
+    margin-left: 95.5%;
+    padding: 12px;
+    z-index: 1000000000;
 }
 
 /** PARAGRAPHS PAGE **/
+.paragraphsListOfTwo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraphsListOfTwo a {
+    position: block;
+    color: inherit;
+    text-decoration: none;
+    width: 49%;
+}
+
+.paragraphsListOfTwo a:first-child {
+    border-right: 5px solid var(--vividblue);
+    position: block;
+    color: inherit;
+    text-decoration: none;
+    width: 49%;
+}
+
+.paragraphPost2 {
+    display: flex;
+}
+
+.paragraphPadding {
+    padding-left: 20px;
+}
+
+.paragraphThumbnail {
+    position: block;
+    margin: 0px;
+    height: 140.625px;
+    width: 250px;
+}
+
+.paragraphText {
+    position: relative;
+    padding: 2px;
+}
+
+.paragraphsLine {
+    padding: 2px;
+    height: 200px;
+    width: 0.1px;
+    border: none;
+    background-color: var(--vividblue);
+}
+
+.dividerLine {
+    padding: 2px;
+    height: 0.5;
+    border: none;
+    background-color: var(--vividblue);
+}
+/** PARAGRAPHS PAGE - TAGS **/
+.learnTag {
+    position: absolute;
+    background-color: var(--redderred);
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 
 /** 404 / CONSTRUCTION **/
 .construction {

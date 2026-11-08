@@ -17,9 +17,21 @@ MON | November 2, 2026
 ======================
 I finshed adding the Spotify integration and it works now. I also started working on the style some more.
 
-THURS | Novemeber 9, 2026
+THURS | Novemeber 6, 2026
 =========================
 I forgot to write some entries. I fixed a lot of the styling accross the website. I need to figure out why the DARRON JOHNSON JR text across the different pages look slightly different, but I'll do that towards the end of the project. 
 I started working on the photo gallary today. I want the pictures to be easily be able to be moved around just in case I want to reorganize them later. I thought about using an array, but that may be harder to implement according to my research. So, I am working on making the identifiers connect directly to the picture with an id (?). 
 I didn't know JS before this point as much as I thought I did, so I am using w3schools (www.w3schools.com/js).
 Goal with the JS: Filter through each photo, identify when they are clicked, check which id was clicked, check that id against the array, get the info from the array, then display that info in the pop-up.
+
+FRI | November 7, 2026
+======================
+Goodness, CSS styling is a lot harder than I thought! I wanted to get a "pop-up" to work when you clicked the image in Photos, but it wouldn't put the photo in the right spot. I wanted to ship the project today though so I can work on a different project, so I had to improvise. I decided to add a nice little "404" window to the webpage. So I can host it, but keep on working on the photo gallary some more.
+
+SAT | November 7, 2026
+======================
+Today, I fixed the photo gallary. It now works (mostly) as intended. I added a X to close out the image and the esc key should work as well. Tomorrow, I'll start working on the Blogs page (Paragraphs) and writing some (hopefully).
+
+SUN | November 8, 2026
+======================
+I fixed the photoScreen not working. I did something crazy that didn't work. I was tired last night... Now, I'm going to fix the style of the pictures on the page. I learned more about the css property grid-template-columns. This allowed me to move the photos depending on the screen size. I also am working on making commis more often, which may be helpful later. Furthermore, I began working on the paragraphs page!

@@ -4,7 +4,7 @@ const photoCover = document.querySelectorAll(".photoCover");
 const regularPhoto = document.getElementById("regularPhoto");
 const photoTitle = document.getElementById("photoTitle");
 const photoDescription = document.getElementById("photoDescription");
-const closeoPhotoScreen = document.querySelector(".closePhotoScreen");
+const closePhotoScreen = document.querySelector(".closePhotoScreen");
 
 const photos = [
     {
@@ -86,3 +86,16 @@ photoCover.forEach (img => {
         console.log(photoScreen.className);
     });
 });
+
+function closePhotoScreenFunction() {
+    photoScreen;
+    photoScreen.classList.toggle("hidden");
+};
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        photoScreen.classList.add('hidden');
+    }
+});
+
+closePhotoScreen.addEventListener("click", closePhotoScreenFunction);

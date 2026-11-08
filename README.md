@@ -3,11 +3,7 @@ My Portfolio
 Hello, my name is Darron Johnson Jr, and this is my portfolio website. I want this to be a place where I can expirement with some cool stuff I may use in future projects.
 
 Features:
-- My siguture for loading the webpage.
-- My time (EST)
-- My projects
-- List of songs I listen to on Spotify
-- Blog (Writing) to where I can write articles for SEO and also personal enjoyment.
-- Photo gallery to showcase my pictures
-- Contact section for Discord, GitHub, Slack, and Email
-- Footer with quick links
+- A Homepage that shows my coding languages and tools.
+- Live clock with hour, minutes, and seconds in my time (EST)
+- A list of my projects with the time I spent on them and a short description.
+- List of songs I listen to on Spotify that are randomly choosen when the page loads.
