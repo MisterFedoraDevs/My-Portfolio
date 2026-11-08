@@ -34,4 +34,4 @@ Today, I fixed the photo gallary. It now works (mostly) as intended. I added a X
 
 SUN | November 8, 2026
 ======================
-I fixed the photoScreen not working. I did something crazy that didn't work. I was tired last night... Now, I'm going to fix the style of the pictures on the page. I learned more about the css property grid-template-columns. This allowed me to move the photos depending on the screen size. I also am working on making commis more often, which may be helpful later. Furthermore, I began working on the paragraphs page!
+I fixed the photoScreen not working. I did something crazy that didn't work. I was tired last night... Now, I'm going to fix the style of the pictures on the page. I learned more about the css property grid-template-columns. This allowed me to move the photos depending on the screen size. I also am working on making commis more often, which may be helpful later. Furthermore, I began working on the paragraphs page! Done working on the paragraphs page. Took some trial and error to get the articles to line up proerly, but it was worth it to drr my FINSHED WEBSITE!!! I also went back to my projects page to fix the buttons.
